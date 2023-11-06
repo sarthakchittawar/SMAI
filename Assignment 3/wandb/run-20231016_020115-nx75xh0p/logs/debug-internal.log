@@ -1,0 +1,127 @@
+2023-10-16 02:01:15,841 INFO    StreamThr :14363 [internal.py:wandb_internal():86] W&B internal server running at pid: 14363, started at: 2023-10-16 02:01:15.840872
+2023-10-16 02:01:15,843 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: status
+2023-10-16 02:01:15,847 INFO    WriterThread:14363 [datastore.py:open_for_write():85] open: /home/sarthak/github-classroom/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar/wandb/run-20231016_020115-nx75xh0p/run-nx75xh0p.wandb
+2023-10-16 02:01:15,848 DEBUG   SenderThread:14363 [sender.py:send():380] send: header
+2023-10-16 02:01:15,856 DEBUG   SenderThread:14363 [sender.py:send():380] send: run
+2023-10-16 02:01:16,654 INFO    SenderThread:14363 [dir_watcher.py:__init__():211] watching files in: /home/sarthak/github-classroom/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar/wandb/run-20231016_020115-nx75xh0p/files
+2023-10-16 02:01:16,654 INFO    SenderThread:14363 [sender.py:_start_run_threads():1122] run started: nx75xh0p with start time 1697401875.841276
+2023-10-16 02:01:16,660 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: check_version
+2023-10-16 02:01:16,661 DEBUG   SenderThread:14363 [sender.py:send_request():407] send_request: check_version
+2023-10-16 02:01:16,810 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: run_start
+2023-10-16 02:01:16,811 DEBUG   HandlerThread:14363 [system_info.py:__init__():32] System info init
+2023-10-16 02:01:16,811 DEBUG   HandlerThread:14363 [system_info.py:__init__():47] System info init done
+2023-10-16 02:01:16,811 INFO    HandlerThread:14363 [system_monitor.py:start():194] Starting system monitor
+2023-10-16 02:01:16,811 INFO    SystemMonitor:14363 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-10-16 02:01:16,812 INFO    HandlerThread:14363 [system_monitor.py:probe():214] Collecting system info
+2023-10-16 02:01:16,812 INFO    SystemMonitor:14363 [interfaces.py:start():190] Started cpu monitoring
+2023-10-16 02:01:16,813 INFO    SystemMonitor:14363 [interfaces.py:start():190] Started disk monitoring
+2023-10-16 02:01:16,813 INFO    SystemMonitor:14363 [interfaces.py:start():190] Started memory monitoring
+2023-10-16 02:01:16,814 INFO    SystemMonitor:14363 [interfaces.py:start():190] Started network monitoring
+2023-10-16 02:01:16,823 DEBUG   HandlerThread:14363 [system_info.py:probe():196] Probing system
+2023-10-16 02:01:16,825 DEBUG   HandlerThread:14363 [system_info.py:_probe_git():181] Probing git
+2023-10-16 02:01:16,832 DEBUG   HandlerThread:14363 [system_info.py:_probe_git():189] Probing git done
+2023-10-16 02:01:16,832 DEBUG   HandlerThread:14363 [system_info.py:probe():244] Probing system done
+2023-10-16 02:01:16,832 DEBUG   HandlerThread:14363 [system_monitor.py:probe():223] {'os': 'Linux-6.2.0-34-generic-x86_64-with-glibc2.35', 'python': '3.11.4', 'heartbeatAt': '2023-10-15T20:31:16.823189', 'startedAt': '2023-10-15T20:31:15.831497', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://sarthakchittawar:@github.com/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar.git', 'commit': 'ffb2a4506e6cd20fcc7910dbfb1c7978a34d337f'}, 'email': 'sarthak.chittawar@research.iiit.ac.in', 'root': '/home/sarthak/github-classroom/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar', 'host': 'sarthak-asus-vivobook', 'username': 'sarthak', 'executable': '/home/sarthak/miniconda3/envs/smai/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2.462375, 'min': 1200.0, 'max': 3200.0}, 'cpu_freq_per_core': [{'current': 2.144, 'min': 1200.0, 'max': 3200.0}, {'current': 2.664, 'min': 1200.0, 'max': 3200.0}, {'current': 2.744, 'min': 1200.0, 'max': 3200.0}, {'current': 2.744, 'min': 1200.0, 'max': 3200.0}, {'current': 2.744, 'min': 1200.0, 'max': 3200.0}, {'current': 2.744, 'min': 1200.0, 'max': 3200.0}, {'current': 2.448, 'min': 1200.0, 'max': 3200.0}, {'current': 2.195, 'min': 1200.0, 'max': 3200.0}, {'current': 2.746, 'min': 1200.0, 'max': 3200.0}, {'current': 2.377, 'min': 1200.0, 'max': 3200.0}, {'current': 2.741, 'min': 1200.0, 'max': 3200.0}, {'current': 3.2, 'min': 1200.0, 'max': 3200.0}, {'current': 2.742, 'min': 1200.0, 'max': 3200.0}, {'current': 2.602, 'min': 1200.0, 'max': 3200.0}, {'current': 2.381, 'min': 1200.0, 'max': 3200.0}, {'current': 2.195, 'min': 1200.0, 'max': 3200.0}], 'disk': {'/': {'total': 164.97959518432617, 'used': 120.80990219116211}}, 'memory': {'total': 15.021228790283203}}
+2023-10-16 02:01:16,833 INFO    HandlerThread:14363 [system_monitor.py:probe():224] Finished collecting system info
+2023-10-16 02:01:16,833 INFO    HandlerThread:14363 [system_monitor.py:probe():227] Publishing system info
+2023-10-16 02:01:16,833 DEBUG   HandlerThread:14363 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-10-16 02:01:16,833 DEBUG   HandlerThread:14363 [system_info.py:_save_pip():68] Saving pip packages done
+2023-10-16 02:01:16,833 DEBUG   HandlerThread:14363 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-10-16 02:01:17,657 INFO    Thread-12 :14363 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sarthak/github-classroom/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar/wandb/run-20231016_020115-nx75xh0p/files/requirements.txt
+2023-10-16 02:01:17,658 INFO    Thread-12 :14363 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sarthak/github-classroom/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar/wandb/run-20231016_020115-nx75xh0p/files/conda-environment.yaml
+2023-10-16 02:01:21,656 INFO    Thread-12 :14363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarthak/github-classroom/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar/wandb/run-20231016_020115-nx75xh0p/files/conda-environment.yaml
+2023-10-16 02:01:21,826 DEBUG   HandlerThread:14363 [system_info.py:_save_conda():87] Saving conda packages done
+2023-10-16 02:01:21,826 INFO    HandlerThread:14363 [system_monitor.py:probe():229] Finished publishing system info
+2023-10-16 02:01:21,830 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 02:01:21,830 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-16 02:01:21,830 DEBUG   SenderThread:14363 [sender.py:send():380] send: files
+2023-10-16 02:01:21,831 INFO    SenderThread:14363 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-10-16 02:01:21,844 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-16 02:01:21,844 DEBUG   SenderThread:14363 [sender.py:send():380] send: telemetry
+2023-10-16 02:01:21,887 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-16 02:01:21,888 DEBUG   SenderThread:14363 [sender.py:send_request():407] send_request: stop_status
+2023-10-16 02:01:22,657 INFO    Thread-12 :14363 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sarthak/github-classroom/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar/wandb/run-20231016_020115-nx75xh0p/files/wandb-metadata.json
+2023-10-16 02:01:22,998 INFO    wandb-upload_0:14363 [upload_job.py:push():131] Uploaded file /tmp/tmpsqnb6__gwandb/io9krz18-wandb-metadata.json
+2023-10-16 02:01:27,376 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 02:01:32,377 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 02:01:33,578 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: pause
+2023-10-16 02:01:33,579 INFO    HandlerThread:14363 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-10-16 02:01:33,579 INFO    HandlerThread:14363 [system_monitor.py:finish():203] Stopping system monitor
+2023-10-16 02:01:33,579 DEBUG   SystemMonitor:14363 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-10-16 02:01:33,580 DEBUG   SystemMonitor:14363 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-10-16 02:01:33,580 DEBUG   SystemMonitor:14363 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-10-16 02:01:33,581 INFO    HandlerThread:14363 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-16 02:01:33,581 INFO    HandlerThread:14363 [interfaces.py:finish():202] Joined disk monitor
+2023-10-16 02:01:33,581 INFO    HandlerThread:14363 [interfaces.py:finish():202] Joined memory monitor
+2023-10-16 02:01:33,581 INFO    HandlerThread:14363 [interfaces.py:finish():202] Joined network monitor
+2023-10-16 02:01:33,582 DEBUG   SenderThread:14363 [sender.py:send():380] send: stats
+2023-10-16 02:01:33,662 INFO    Thread-12 :14363 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sarthak/github-classroom/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar/wandb/run-20231016_020115-nx75xh0p/files/output.log
+2023-10-16 02:01:35,663 INFO    Thread-12 :14363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarthak/github-classroom/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar/wandb/run-20231016_020115-nx75xh0p/files/output.log
+2023-10-16 02:01:36,902 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-16 02:01:36,904 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-16 02:01:36,905 DEBUG   SenderThread:14363 [sender.py:send_request():407] send_request: stop_status
+2023-10-16 02:01:38,333 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 02:01:43,334 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 02:01:48,341 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 02:01:49,669 INFO    Thread-12 :14363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarthak/github-classroom/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar/wandb/run-20231016_020115-nx75xh0p/files/config.yaml
+2023-10-16 02:01:52,042 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-16 02:01:52,042 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-16 02:01:52,043 DEBUG   SenderThread:14363 [sender.py:send_request():407] send_request: stop_status
+2023-10-16 02:01:54,488 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 02:01:59,489 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 02:02:04,490 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 02:02:07,057 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-16 02:02:07,083 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-16 02:02:07,084 DEBUG   SenderThread:14363 [sender.py:send_request():407] send_request: stop_status
+2023-10-16 02:02:10,463 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 02:02:15,464 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 02:02:20,464 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 02:02:22,024 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-16 02:02:22,025 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-16 02:02:22,025 DEBUG   SenderThread:14363 [sender.py:send_request():407] send_request: stop_status
+2023-10-16 02:02:26,387 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 02:02:31,388 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 02:02:36,388 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 02:02:36,942 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-16 02:02:36,943 DEBUG   SenderThread:14363 [sender.py:send_request():407] send_request: stop_status
+2023-10-16 02:02:37,089 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-16 02:02:42,296 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 02:02:47,297 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 02:02:51,948 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-16 02:02:51,949 DEBUG   SenderThread:14363 [sender.py:send_request():407] send_request: stop_status
+2023-10-16 02:02:52,005 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-16 02:02:52,326 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 02:02:54,613 DEBUG   SenderThread:14363 [sender.py:send():380] send: telemetry
+2023-10-16 02:02:54,614 DEBUG   SenderThread:14363 [sender.py:send():380] send: exit
+2023-10-16 02:02:54,614 INFO    SenderThread:14363 [sender.py:send_exit():585] handling exit code: 1
+2023-10-16 02:02:54,614 INFO    SenderThread:14363 [sender.py:send_exit():587] handling runtime: 16
+2023-10-16 02:02:54,615 INFO    SenderThread:14363 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-16 02:02:54,616 INFO    SenderThread:14363 [sender.py:send_exit():593] send defer
+2023-10-16 02:02:54,616 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: defer
+2023-10-16 02:02:54,616 INFO    HandlerThread:14363 [handler.py:handle_request_defer():172] handle defer: 0
+2023-10-16 02:02:54,616 DEBUG   HandlerThread:14363 [handler.py:handle_request():146] handle_request: shutdown
+2023-10-16 02:02:54,616 INFO    HandlerThread:14363 [handler.py:finish():866] shutting down handler
+2023-10-16 02:02:54,616 DEBUG   SenderThread:14363 [sender.py:send_request():407] send_request: defer
+2023-10-16 02:02:54,617 INFO    SenderThread:14363 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-10-16 02:02:54,617 INFO    SenderThread:14363 [sender.py:transition_state():613] send defer: 1
+2023-10-16 02:02:54,617 INFO    SenderThread:14363 [sender.py:finish():1534] shutting down sender
+2023-10-16 02:02:54,698 INFO    Thread-12 :14363 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sarthak/github-classroom/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar/wandb/run-20231016_020115-nx75xh0p/files/wandb-summary.json
+2023-10-16 02:02:55,559 INFO    SenderThread:14363 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-10-16 02:02:55,617 INFO    WriterThread:14363 [datastore.py:close():294] close: /home/sarthak/github-classroom/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar/wandb/run-20231016_020115-nx75xh0p/run-nx75xh0p.wandb
+2023-10-16 02:02:55,699 INFO    Thread-12 :14363 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarthak/github-classroom/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar/wandb/run-20231016_020115-nx75xh0p/files/output.log
+2023-10-16 02:02:55,699 INFO    SenderThread:14363 [dir_watcher.py:finish():388] scan: /home/sarthak/github-classroom/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar/wandb/run-20231016_020115-nx75xh0p/files
+2023-10-16 02:02:55,700 INFO    SenderThread:14363 [dir_watcher.py:finish():402] scan save: /home/sarthak/github-classroom/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar/wandb/run-20231016_020115-nx75xh0p/files/requirements.txt requirements.txt
+2023-10-16 02:02:55,700 INFO    SenderThread:14363 [dir_watcher.py:finish():402] scan save: /home/sarthak/github-classroom/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar/wandb/run-20231016_020115-nx75xh0p/files/conda-environment.yaml conda-environment.yaml
+2023-10-16 02:02:55,702 INFO    SenderThread:14363 [dir_watcher.py:finish():402] scan save: /home/sarthak/github-classroom/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar/wandb/run-20231016_020115-nx75xh0p/files/wandb-summary.json wandb-summary.json
+2023-10-16 02:02:55,703 INFO    SenderThread:14363 [dir_watcher.py:finish():402] scan save: /home/sarthak/github-classroom/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar/wandb/run-20231016_020115-nx75xh0p/files/output.log output.log
+2023-10-16 02:02:55,705 INFO    SenderThread:14363 [dir_watcher.py:finish():402] scan save: /home/sarthak/github-classroom/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar/wandb/run-20231016_020115-nx75xh0p/files/wandb-metadata.json wandb-metadata.json
+2023-10-16 02:02:55,705 INFO    SenderThread:14363 [dir_watcher.py:finish():402] scan save: /home/sarthak/github-classroom/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar/wandb/run-20231016_020115-nx75xh0p/files/config.yaml config.yaml
+2023-10-16 02:02:55,705 INFO    SenderThread:14363 [file_pusher.py:finish():175] shutting down file pusher
+2023-10-16 02:02:55,705 INFO    SenderThread:14363 [file_pusher.py:join():181] waiting for file pusher
+2023-10-16 02:02:56,485 INFO    wandb-upload_0:14363 [upload_job.py:push():131] Uploaded file /home/sarthak/github-classroom/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar/wandb/run-20231016_020115-nx75xh0p/files/requirements.txt
+2023-10-16 02:02:56,793 INFO    wandb-upload_4:14363 [upload_job.py:push():131] Uploaded file /home/sarthak/github-classroom/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar/wandb/run-20231016_020115-nx75xh0p/files/config.yaml
+2023-10-16 02:02:56,793 INFO    wandb-upload_2:14363 [upload_job.py:push():131] Uploaded file /home/sarthak/github-classroom/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar/wandb/run-20231016_020115-nx75xh0p/files/wandb-summary.json
+2023-10-16 02:02:56,793 INFO    wandb-upload_1:14363 [upload_job.py:push():131] Uploaded file /home/sarthak/github-classroom/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar/wandb/run-20231016_020115-nx75xh0p/files/conda-environment.yaml
+2023-10-16 02:02:57,677 INFO    wandb-upload_3:14363 [upload_job.py:push():131] Uploaded file /home/sarthak/github-classroom/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar/wandb/run-20231016_020115-nx75xh0p/files/output.log
+2023-10-16 02:02:58,206 INFO    SenderThread:14363 [file_stream.py:finish():595] file stream finish called
+2023-10-16 02:02:58,504 INFO    SenderThread:14363 [file_stream.py:finish():599] file stream finish is done

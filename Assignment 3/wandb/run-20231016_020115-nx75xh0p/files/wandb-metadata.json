@@ -1,0 +1,119 @@
+{
+    "os": "Linux-6.2.0-34-generic-x86_64-with-glibc2.35",
+    "python": "3.11.4",
+    "heartbeatAt": "2023-10-15T20:31:16.823189",
+    "startedAt": "2023-10-15T20:31:15.831497",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://sarthakchittawar:@github.com/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar.git",
+        "commit": "ffb2a4506e6cd20fcc7910dbfb1c7978a34d337f"
+    },
+    "email": "sarthak.chittawar@research.iiit.ac.in",
+    "root": "/home/sarthak/github-classroom/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar",
+    "host": "sarthak-asus-vivobook",
+    "username": "sarthak",
+    "executable": "/home/sarthak/miniconda3/envs/smai/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2.462375,
+        "min": 1200.0,
+        "max": 3200.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2.144,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2.664,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2.744,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2.744,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2.744,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2.744,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2.448,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2.195,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2.746,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2.377,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2.741,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3.2,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2.742,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2.602,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2.381,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2.195,
+            "min": 1200.0,
+            "max": 3200.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 164.97959518432617,
+            "used": 120.80990219116211
+        }
+    },
+    "memory": {
+        "total": 15.021228790283203
+    }
+}

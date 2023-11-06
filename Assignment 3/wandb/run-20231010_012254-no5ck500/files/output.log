@@ -1,0 +1,35 @@
+
+Learning Rate:  0.1  Epochs:  1000  Accuracy:  0.45414847161572053
+Learning Rate:  0.1  Epochs:  5000  Accuracy:  0.4410480349344978
+Learning Rate:  0.1  Epochs:  10000  Accuracy:  0.4890829694323144
+Learning Rate:  0.1  Epochs:  20000  Accuracy:  0.47161572052401746
+Learning Rate:  0.01  Epochs:  1000  Accuracy:  0.5021834061135371
+Learning Rate:  0.01  Epochs:  5000  Accuracy:  0.4672489082969432
+Learning Rate:  0.01  Epochs:  10000  Accuracy:  0.4978165938864629
+Learning Rate:  0.01  Epochs:  20000  Accuracy:  0.47161572052401746
+Learning Rate:  0.001  Epochs:  1000  Accuracy:  0.62882096069869
+Learning Rate:  0.001  Epochs:  5000  Accuracy:  0.62882096069869
+Learning Rate:  0.001  Epochs:  10000  Accuracy:  0.62882096069869
+Learning Rate:  0.001  Epochs:  20000  Accuracy:  0.6244541484716157
+Learning Rate:  0.0001  Epochs:  1000  Accuracy:  0.62882096069869
+Learning Rate:  0.0001  Epochs:  5000  Accuracy:  0.62882096069869
+Learning Rate:  0.0001  Epochs:  10000  Accuracy:  0.62882096069869
+Learning Rate:  0.0001  Epochs:  20000  Accuracy:  0.62882096069869
+Learning Rate:  1e-05  Epochs:  1000  Accuracy:  0.611353711790393
+
+Learning Rate:  1e-05  Epochs:  5000  Accuracy:  0.6244541484716157
+Learning Rate:  1e-05  Epochs:  10000  Accuracy:  0.62882096069869
+Learning Rate:  1e-05  Epochs:  20000  Accuracy:  0.6200873362445415
+Best learning rate:  0.001  Best epoch:  1000  Best accuracy:  0.62882096069869
+Loss:  596.3062904786025
+Accuracy:  0.5414847161572053
+              precision    recall  f1-score   support
+         3.0       0.00      0.00       nan         2
+         4.0        nan      0.00       nan        11
+         5.0       0.61      0.72      0.66        89
+         6.0       0.50      0.62      0.55        91
+         7.0       0.44      0.14      0.21        29
+         8.0        nan      0.00       nan         7
+    accuracy                           0.54       229
+   macro avg       0.39      0.25      0.47       229
+weighted avg       0.53      0.54      0.55       229

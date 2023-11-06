@@ -1,0 +1,34 @@
+2023-10-16 02:21:55,551 INFO    Thread-6 (_run_job):15929 [wandb_setup.py:_flush():76] Current SDK version is 0.15.12
+2023-10-16 02:21:55,551 INFO    Thread-6 (_run_job):15929 [wandb_setup.py:_flush():76] Configure stats pid to 15929
+2023-10-16 02:21:55,551 INFO    Thread-6 (_run_job):15929 [wandb_setup.py:_flush():76] Loading settings from /home/sarthak/.config/wandb/settings
+2023-10-16 02:21:55,552 INFO    Thread-6 (_run_job):15929 [wandb_setup.py:_flush():76] Loading settings from /home/sarthak/github-classroom/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar/wandb/settings
+2023-10-16 02:21:55,552 INFO    Thread-6 (_run_job):15929 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'mlp-regression', 'entity': 'sarthakchittawar', 'root_dir': '/home/sarthak/github-classroom/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar', 'run_id': '1ddiw07x', 'sweep_param_path': '/home/sarthak/github-classroom/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar/wandb/sweep-fqekg73o/config-1ddiw07x.yaml', 'sweep_id': 'fqekg73o'}
+2023-10-16 02:21:55,552 INFO    Thread-6 (_run_job):15929 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-10-16 02:21:55,552 INFO    Thread-6 (_run_job):15929 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'ada2.py', 'program_abspath': '/home/sarthak/github-classroom/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar/ada2.py', 'program': '/home/sarthak/github-classroom/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar/ada2.py'}
+2023-10-16 02:21:55,552 INFO    Thread-6 (_run_job):15929 [wandb_init.py:_log_setup():528] Logging user logs to /home/sarthak/github-classroom/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar/wandb/run-20231016_022155-1ddiw07x/logs/debug.log
+2023-10-16 02:21:55,552 INFO    Thread-6 (_run_job):15929 [wandb_init.py:_log_setup():529] Logging internal logs to /home/sarthak/github-classroom/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-sarthakchittawar/wandb/run-20231016_022155-1ddiw07x/logs/debug-internal.log
+2023-10-16 02:21:55,552 INFO    Thread-6 (_run_job):15929 [wandb_init.py:init():568] calling init triggers
+2023-10-16 02:21:55,552 INFO    Thread-6 (_run_job):15929 [wandb_init.py:init():575] wandb.init called with sweep_config: {'activation_func': 'sigmoid', 'hidden_layers': [6, 6], 'lr': 0.001, 'optimizer': 'batch'}
+config: {}
+2023-10-16 02:21:55,552 INFO    Thread-6 (_run_job):15929 [wandb_init.py:init():618] starting backend
+2023-10-16 02:21:55,552 INFO    Thread-6 (_run_job):15929 [wandb_init.py:init():622] setting up manager
+2023-10-16 02:21:55,554 INFO    Thread-6 (_run_job):15929 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-10-16 02:21:55,555 INFO    Thread-6 (_run_job):15929 [wandb_init.py:init():628] backend started and connected
+2023-10-16 02:21:55,560 INFO    Thread-6 (_run_job):15929 [wandb_run.py:_config_callback():1324] config_cb None None {'activation_func': 'sigmoid', 'hidden_layers': [6, 6], 'lr': 0.001, 'optimizer': 'batch'}
+2023-10-16 02:21:55,560 INFO    Thread-6 (_run_job):15929 [wandb_init.py:init():720] updated telemetry
+2023-10-16 02:21:55,564 INFO    Thread-6 (_run_job):15929 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2023-10-16 02:21:56,302 INFO    Thread-6 (_run_job):15929 [wandb_run.py:_on_init():2220] communicating current version
+2023-10-16 02:21:56,432 INFO    Thread-6 (_run_job):15929 [wandb_run.py:_on_init():2229] got version response 
+2023-10-16 02:21:56,432 INFO    Thread-6 (_run_job):15929 [wandb_init.py:init():804] starting run threads in backend
+2023-10-16 02:21:58,983 INFO    Thread-6 (_run_job):15929 [wandb_run.py:_console_start():2199] atexit reg
+2023-10-16 02:21:58,983 INFO    Thread-6 (_run_job):15929 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-10-16 02:21:58,983 INFO    Thread-6 (_run_job):15929 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-10-16 02:21:58,984 INFO    Thread-6 (_run_job):15929 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-10-16 02:21:58,984 INFO    Thread-6 (_run_job):15929 [wandb_init.py:init():845] run started, returning control to user process
+2023-10-16 02:21:59,800 INFO    Thread-6 (_run_job):15929 [wandb_run.py:_finish():1934] finishing run sarthakchittawar/mlp-regression/1ddiw07x
+2023-10-16 02:21:59,800 INFO    Thread-6 (_run_job):15929 [wandb_run.py:_atexit_cleanup():2168] got exitcode: 1
+2023-10-16 02:21:59,800 INFO    Thread-6 (_run_job):15929 [wandb_run.py:_restore():2151] restore
+2023-10-16 02:21:59,800 INFO    Thread-6 (_run_job):15929 [wandb_run.py:_restore():2157] restore done
+2023-10-16 02:22:03,699 INFO    Thread-6 (_run_job):15929 [wandb_run.py:_footer_history_summary_info():3599] rendering history
+2023-10-16 02:22:03,700 INFO    Thread-6 (_run_job):15929 [wandb_run.py:_footer_history_summary_info():3631] rendering summary
+2023-10-16 02:22:03,701 INFO    Thread-6 (_run_job):15929 [wandb_run.py:_footer_sync_info():3558] logging synced files

@@ -1,0 +1,35 @@
+
+Learning Rate:  0.01  Epochs:  100  Accuracy:  0.45414847161572053
+Learning Rate:  0.01  Epochs:  1000  Accuracy:  0.5589519650655022
+Learning Rate:  0.01  Epochs:  5000  Accuracy:  0.4410480349344978
+Learning Rate:  0.01  Epochs:  10000  Accuracy:  0.4410480349344978
+Learning Rate:  0.01  Epochs:  20000  Accuracy:  0.5589519650655022
+Learning Rate:  0.001  Epochs:  100  Accuracy:  0.611353711790393
+Learning Rate:  0.001  Epochs:  1000  Accuracy:  0.6244541484716157
+Learning Rate:  0.001  Epochs:  5000  Accuracy:  0.6200873362445415
+Learning Rate:  0.001  Epochs:  10000  Accuracy:  0.6200873362445415
+Learning Rate:  0.001  Epochs:  20000  Accuracy:  0.6200873362445415
+Learning Rate:  0.0001  Epochs:  100  Accuracy:  0.5545851528384279
+Learning Rate:  0.0001  Epochs:  1000  Accuracy:  0.6157205240174672
+Learning Rate:  0.0001  Epochs:  5000  Accuracy:  0.62882096069869
+Learning Rate:  0.0001  Epochs:  10000  Accuracy:  0.6244541484716157
+Learning Rate:  0.0001  Epochs:  20000  Accuracy:  0.6200873362445415
+Learning Rate:  1e-05  Epochs:  100  Accuracy:  0.33624454148471616
+Learning Rate:  1e-05  Epochs:  1000  Accuracy:  0.5938864628820961
+Learning Rate:  1e-05  Epochs:  5000  Accuracy:  0.6200873362445415
+Learning Rate:  1e-05  Epochs:  10000  Accuracy:  0.6157205240174672
+Learning Rate:  1e-05  Epochs:  20000  Accuracy:  0.6200873362445415
+Best Accuracy:  0.62882096069869
+Best Learning Rate:  0.0001
+Best Epoch:  5000
+Test Set:
+Accuracy:  0.5807860262008734
+              precision    recall  f1-score   support
+         3.0        nan      0.00       nan         1
+         4.0        nan      0.00       nan        10
+         5.0       0.61      0.77      0.68        91
+         6.0       0.55      0.59      0.57        94
+         7.0       0.57      0.27      0.36        30
+         8.0        nan      0.00       nan         3
+    accuracy                           0.58       229
+   macro avg       0.58      0.27      0.54       229
